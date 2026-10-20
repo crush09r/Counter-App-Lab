@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+#root {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.counters-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.counter-box {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.counter-box p {
+  font-size: 3rem;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.counter-box button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+
+.results {
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #eef;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.counter-section {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.counter-section h3 {
+  margin: 0 0 1rem 0;
+  color: #555;
+  font-size: 1.5rem;
+}
+
+.counter-section button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.counter-section button:hover {
+  background-color: #e0e0e0;
+}
